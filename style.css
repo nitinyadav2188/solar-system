@@ -117,3 +117,10 @@ body{
     --orbit: 350px;
     --speed: 12631.58ms;
 }
+
+.saturn {
+    --size: 25px;
+    --color: radial-gradient(circle, #e6dba0 0%, #c2a13e 100%);
+    --orbit: 450px;
+    --speed: 14736.84ms;
+}
