@@ -110,3 +110,10 @@ body{
     --orbit: 250px;
     --speed: 8421.05ms;
 }
+
+.jupiter {
+    --size: 30px;
+    --color: radial-gradient(circle, #d4a373 0%, #b36d32 100%);
+    --orbit: 350px;
+    --speed: 12631.58ms;
+}
