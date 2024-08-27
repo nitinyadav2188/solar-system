@@ -131,3 +131,11 @@ body{
     --orbit: 550px;
     --speed: 10526.32ms;
 }
+
+.neptune {
+    --size: 20px;
+    --color: radial-gradient(circle, #4c6ef5 0%, #1b3b8c 100%);
+    --orbit: 650px;
+    --speed: 20000ms;
+}
+
