@@ -160,3 +160,14 @@ body{
         transform: rotate(360deg) translateX(var(--orbit)) rotate(-360deg);
     }
 }
+
+/* Planet details added*/
+.solar-system li .label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    color: #fff;
+    font-size: 14px;
+    pointer-events: none;
+}
