@@ -82,3 +82,10 @@ body{
     box-shadow: 0 0 20px #f9d71c; /* Enhanced glow for the Sun */
     animation: none; /* Sun does not orbit */
 }
+
+.mercury {
+    --size: 10px;
+    --color: radial-gradient(circle, #c2c2c2 0%, #8a8a8a 100%);
+    --orbit: 100px;
+    --speed: 2105.26ms;
+}
