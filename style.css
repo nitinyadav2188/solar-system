@@ -166,9 +166,10 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -150%);
+    transform: translate(-50%, -150%) translateZ(50px);
     color: #fff;
     font-size: 14px;
     pointer-events: none;
-    z-index:1;
+    z-index:10;
+    white-space: nowrap; /* prevent label text from wrapping*/
 }
