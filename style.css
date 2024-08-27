@@ -139,3 +139,12 @@ body{
     --speed: 20000ms;
 }
 
+/* Orbit Animation */
+@keyframes orbit {
+    from {
+        transform: rotate(0deg) translateX(var(--orbit)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(var(--orbit)) rotate(-360deg);
+    }
+}
