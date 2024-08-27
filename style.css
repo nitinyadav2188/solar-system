@@ -57,6 +57,21 @@ body{
     pointer-events: none; /* Allows clicks to pass through */
 }
 
+/* Planet Styles */
+.solar-system li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%); /* Centers the planet */
+    width: var(--size); /* Planet size */
+    height: var(--size);
+    background: var(--color); /* Planet color */
+    box-shadow: 0 0 10px var(--color); /* Glow effect */
+    animation: orbit var(--speed) linear infinite; /* Orbit animation */
+}
+
 ol{
     all: unset;
     aspect-ratio: 1/1;
