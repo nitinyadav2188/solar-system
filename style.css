@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background: #000f;
-    color: #fffa;
-    margin: 0;
+    background: #000;/* Black background for space*/
     width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    perspective: 1000px; /* Adds perspective to 3D transforms*/
 }
+
 ol{
     all: unset;
     aspect-ratio: 1/1;
