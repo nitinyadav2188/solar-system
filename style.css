@@ -124,3 +124,10 @@ body{
     --orbit: 450px;
     --speed: 14736.84ms;
 }
+
+.uranus {
+    --size: 20px;
+    --color: radial-gradient(circle, #7de3f4 0%, #3ba0b5 100%);
+    --orbit: 550px;
+    --speed: 10526.32ms;
+}
