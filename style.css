@@ -16,6 +16,9 @@ body{
     height: 100%;
     transform-style: preserve-3d;/* allows child elements to maintain 3D position*/
     transform: rotateX('0deg') rotateY('0deg');/*initial rotation*/
+    transition: transform 0.1s;/* smooth rotation*/
+    cursor: grab; /* cursor indicates draggable*/
+    position: relative;
 }
 ol{
     all: unset;
