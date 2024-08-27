@@ -89,3 +89,11 @@ body{
     --orbit: 100px;
     --speed: 2105.26ms;
 }
+
+.venus {
+    --size: 14px;
+    --color: radial-gradient(circle, #f4d03f 0%, #c39c43 100%);
+    --orbit: 150px;
+    --speed: 4210.53ms;
+}
+
