@@ -102,6 +102,9 @@ body{
     --orbit: 150px;
     --speed: 4210.53ms;
 }
+.venus::after {
+    transform: translate(-50%, -50%) rotateX(5deg);
+}
 
 .earth {
     --size: 16px;
@@ -115,6 +118,9 @@ body{
     --color: radial-gradient(circle, #e53373 0%, #af4448 100%);
     --orbit: 250px;
     --speed: 8421.05ms;
+}
+.mars::after {
+    transform: translate(-50%, -50%) rotateX(-5deg);
 }
 
 .jupiter {
