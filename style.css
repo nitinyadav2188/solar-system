@@ -103,3 +103,10 @@ body{
     --orbit: 200px;
     --speed: 6315.79ms;
 }
+
+.mars {
+    --size: 12px;
+    --color: radial-gradient(circle, #e53373 0%, #af4448 100%);
+    --orbit: 250px;
+    --speed: 8421.05ms;
+}
