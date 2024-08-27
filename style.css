@@ -97,3 +97,9 @@ body{
     --speed: 4210.53ms;
 }
 
+.earth {
+    --size: 16px;
+    --color: radial-gradient(circle, #3a82f7 0%, #2f9e44 80%, #1a5e20 100%);
+    --orbit: 200px;
+    --speed: 6315.79ms;
+}
