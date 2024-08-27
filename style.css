@@ -32,6 +32,16 @@ body{
     transform-style: preserve-3d; /* Maintains 3D context for child elements */
     transform: translate(-50%, -50%); /* Centers the solar system */
 }
+
+
+/* Common Styles for Planets */
+.solar-system li {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0; /* Origin for orbit animation */
+}
+
 ol{
     all: unset;
     aspect-ratio: 1/1;
